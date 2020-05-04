@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>House Attendance</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="default.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <body class="houseAtt-bg">
+
+
+      <div class="headerContainer">
+        <div class="logo">
+          <a href="house-attendance-starter-page.html"> <img src="img/logo.png" height="80"></a>
+        </div>
+    
+        <div class="contact">
+          Contact US:
+          <span style="display:block;"><i class="fa fa-envelope" aria-hidden="true"></i><a
+              href="mailto:info@tgif.net">info@tgif.net</a></span>
+        </div>
+    
+      </div>
+      <div class="mainContainer">
+               <!--navbar -->
+               <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width:100%;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="home-starter-page.html">Home <span
+                          class="sr-only">(current)</span></a>
+                    </li>
+          
+                    <li class="nav-item active">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Congress 113
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="house-starter-page.html">House</a>
+                        <a class="dropdown-item" href="senate-starter-page.html">Senate</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <li class="nav-item dropdown active">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Attendance
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="house-attendance-starter-page.html">House</a>
+                              <a class="dropdown-item" href="#">Senate</a>
+                          </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Party Loyalty
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item"
+                                  href="#">House</a>
+                              <a class="dropdown-item" href="#">Senate</a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </nav> 
+                <!--END of navbar -->
+        <!-- content -->
+
+
+       <!-- ახალი გადმოკოპირებული **************** -->
+        <!--Table container-->
+        <section>
+            <div class="row">
+                <div class="col-sm-6">
+        
+            <h2>Party Loyalty</h2>
+            <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda. </p>
+        </div>
+        <div class="col-sm-6" style="bottom: 5px;">
+
+            <h4>Senate at a glance</h4>
+
+            <table class="table table-bordered table-striped" id="glanceTable"></table>
+            <thead>
+                <tr>
+                    <th>Party</th>
+                    <th>Number of Reps</th>
+                    <th>% Voted with Party</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            
+            </tbody>
+       
+        </table>
+    </div>            
+    </div>
+
+    
+
+            <h4> Least Engaged
+                (Bottom 10% Attendance)</h4>
+                <table class="table table-bordered table-striped" id="leastEngTable"></table>
+                <thead>
+                <table border="2">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Nº of Party Votes</th>
+                        <th>% Party Votes</th>
+                    </tr>
+                </thead>
+                <tbody id="leastLoyTable">
+    
+                </tbody>
+            </table>
+        </div>
+    <div class="col-sm-6">
+        <h4>Most Engaged
+            (Top 10% Attendance)</h4>
+        <table class="table table-border table-striped">
+            <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Nº of Missed Votes of Party Votes</th>
+                    <th>% Party Votes</th>
+                </tr>
+            </thead>
+            <tbody id="mostLoyTable"></tbody>
+        </table>
+    </div>
+    </div>
+            </section>
+    <!-- დამთავრება ახალი დაკოპირებულის -->
+     <!-- Footer -->
+     <footer class="page-footer font-small blue bg-dark">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-white-50 text-center py-3">© 2019 TGIF | All Rights Reserverd
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</div>
+<!-- end of content -->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="pro-Congress-113-senate.js.js"></script>
+<script src="houseAtt.js"></script>
+
+
+</body>
+
+</html>
+<!-- END -->

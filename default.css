@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+}
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+a {
+	font-family: "Ubuntu", sans-serif;
+	/* font: bolder; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.home-bg {
+	background: url(img/usa.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.senate-bg {
+	background: url(img/pix.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* yvela bg aris shekmnili HTML failshi */
+.house-bg {
+	background: url(img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.houseAtt-bg {
+	background: url(img/black.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.senateAtt-bg {
+	background: url(img/1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.headerContainer {
+	display: block;
+	max-width: 1080px;
+	min-height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.headerContainer .logo {
+	display: inline-block;
+	/* float: left;  */
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.headerContainer .contact {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.mainContainer {
+	display: block;
+	max-width: 1080px;
+	margin: 0 auto;
+	min-height: 400px;
+	margin-bottom: 100px;
+	box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #b3b3b3;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+#more {
+	display: none;
+	cursor: pointer;
+}
+
+button {
+	background-color: #c90516;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 30px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+/* button:hover {
+	transform: scale(1.2) translateX(8px);
+} */
+
+.text-justify {
+	font-weight: 600 !important;
+}
+.indent {
+	padding: 18px;
+}
+
+.row {
+	padding-left: 45px;
+}
+.row {
+	bottom: 23px;
+}
