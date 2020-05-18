@@ -5,7 +5,7 @@
 <head>
     <title>House Attendance</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="default.css">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -87,22 +87,28 @@
 
 
                         <h2>Attendance</h2>
-                        <p>The Constitution specifies that a majority of members constitutes a quorum to do business in
+                        <p class="text-justify">The Constitution specifies that a majority of members constitutes a
+                            quorum to do business in
                             each
-                            house. Representatives and senators rarely force the presence of a quorum by demanding
+                            house.
+                            Representatives and senators rarely force the presence of a quorum by demanding
                             quorum
-                            calls; thus, in most cases, debates continue even if a majority is not present.The Senate
-                            uses roll-call votes; a clerk calls out the names of all the senators, each senator
-                            stating "aye" or "no" when his or her name is announced. The House reserves roll-call votes
-                            for
-                            the most formal matters, as a roll-call of all 435 representatives takes quite some time;
-                            normally, members vote by electronic device. In the case of a tie, the motion in question
-                            fails.
-                            In the Senate, the Vice President may (if present) cast the tiebreaking vote.</p>
+                            calls; thus, in most cases, debates continue even if a majority is not present.
+                            <p class="text-justify">The Senate
+                                uses roll-call votes; a clerk calls out the names of all the senators, each senator
+                                stating "aye" or "no" when his or her name is announced. </p>
+                            <p class="text-justify">The House reserves roll-call votes
+                                for
+                                the most formal matters, as a roll-call of all 435 representatives takes quite some
+                                time;
+                                normally, members vote by electronic device. In the case of a tie, the motion in
+                                question
+                                fails.
+                                In the Senate, the Vice President may (if present) cast the tiebreaking vote.</p>
                     </div>
-                    <div class="col-sm-6" style="bottom: 5px;">
+                    <div class="col-sm-6" style="bottom: 1px;">
 
-                        <h4>House at a glance</h4>
+                        <h3>House at a glance</h3>
                         <table class="table table-bordered table-striped" id="glanceTable">
 
                             <thead>
@@ -121,13 +127,13 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col-6">
-                        <h3>Least Engaged (Bottom 10% Attendance)</h3>
+                        <h3>Least Engaged(Bottom10%Attendance)</h3>
                         <table class="table">
                             <thead class="">
                                 <tr class="text-center">
                                     <th>Name</th>
-                                    <th>Number of Missed Votes</th>
-                                    <th>% Missed</th>
+                                    <th>NumberOfMissedVotes</th>
+                                    <th>%Missed</th>
                                 </tr>
                             </thead>
                             <tbody id="leastEngagedData" class="text-center">
@@ -137,13 +143,13 @@
                     </div> <!-- Fin de col -->
 
                     <div class="col-6">
-                        <h3>Most Engaged (Top 10% Attendance)</h3>
+                        <h3>Most Engaged(Top10%Attendance)</h3>
                         <table class="table">
                             <thead class="">
                                 <tr class="text-center">
                                     <th>Name</th>
-                                    <th>Number of Missed Votes</th>
-                                    <th>% Missed</th>
+                                    <th>NumberOfMissedVotes</th>
+                                    <th>%Missed</th>
                                 </tr>
                             </thead>
 
@@ -154,22 +160,20 @@
                         </table>
                     </div> <!-- Fin de col -->
                 </div> <!-- Fin de row -->
+
+                <!-- Footer -->
+                <footer class="page-footer font-small blue bg-dark">
+
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-white-50 text-center py-3">© 2019 TGIF | All Rights Reserverd
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
         </div> <!-- Fin Container -->
-        <!-- დამთავრება ახალი დაკოპირებულის -->
 
-        <!-- Footer -->
-        <footer class="page-footer font-small blue bg-dark">
 
-            <!-- Copyright -->
-            <div class="footer-copyright text-white-50 text-center py-3">© 2019 TGIF | All Rights Reserverd
-            </div>
-            <!-- Copyright -->
 
-        </footer>
-        <!-- Footer -->
-        </div>
-        <!-- end of content -->
-        </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -180,8 +184,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
-        <script src="pro-Congress-113-house.js"></script>
-        <script src="houseAtt.js"></script>
+        <script src="js/pro-Congress-113-house.js"></script>
+        <script src="js/houseAtt.js"></script>
 
 
     </body>
